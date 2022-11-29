@@ -35,6 +35,11 @@ body {
     text-decoration: none;
   }
 
+  .except:hover{
+    transition: 0.25s ease-in;
+    color: #ec0606;
+  }
+
   .navbar img.logo {
     background-color: #fff;
     max-width: 150px;
@@ -56,13 +61,14 @@ body {
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
     margin-top: -18px;
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar .except:hover, .dropdown:hover .dropbtn {
-    background-color: #ddd;
+    cursor: pointer;
   }
 
+  /* Transition effect for Menu button */
+  a.dropbtn:hover {
+    transition: 0.25s ease-in;
+    color: #ec0606;
+  }  
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
@@ -89,6 +95,7 @@ body {
   .dropdown-content a:hover {
     background-color: #ddd;
     transition: 0.3s ease-in;
+    color: red;
   }
   
   /* Show the dropdown menu on hover */
