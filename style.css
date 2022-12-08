@@ -216,42 +216,7 @@ aside.content-picture .socials ul.social-media li i{
     max-width: 35px;
 }
 
-@media only screen and (max-width:1040px) {
-  .content{
-      flex-direction: column;
-  }
 
-  .shape{
-    clip-path: circle(200px at center bottom);
-}
-
-  .content-text h2.product-header{
-      font-size: 3em;
-  }
-
-  .content-picture{
-      position: relative;
-  }
-
-  .content-picture .socials{
-      position: absolute;
-      bottom: 0px;
-      right: -50px;
-  }
-
-  .content-text{
-      margin-bottom: 80px;
-      margin-left: 20px;
-      margin-right: 20px;
-  }
-
-
-  .content-picture img.pepsi{
-      max-width: 200px;
-      margin-right: 0;
-  }
-
-}
 
 
 
