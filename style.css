@@ -216,7 +216,7 @@ aside.content-picture .socials ul.social-media li i{
     max-width: 35px;
 }
 
-@media only screen and (max-width:1030px) {
+@media only screen and (max-width:1040px) {
   .content{
       flex-direction: column;
   }
