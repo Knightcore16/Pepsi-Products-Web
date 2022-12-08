@@ -221,6 +221,9 @@ aside.content-picture .socials ul.social-media li i{
       flex-direction: column;
   }
 
+  .shape{
+    clip-path: circle(200px at center bottom);
+}
 
   .content-text h2.product-header{
       font-size: 3em;
