@@ -265,7 +265,7 @@ aside.content-picture .socials ul.social-media li i{
 }
 
 .content-text .product-des {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .shape{
@@ -292,10 +292,5 @@ a.dropbtn {
 
 }
 
- @media only screen and (max-width:477px){
-  .content-picture .socials{
-    position: absolute;
-    margin-right: 30px;
-  }
 
-}
+
