@@ -253,44 +253,7 @@ aside.content-picture .socials ul.social-media li i{
 
 }
 
-@media only screen and (max-width:1024px){
-  .content-picture img.pepsi{
-    max-width: 200px;
-    margin-right: 0;
-    margin-top: -50px;
-}
 
-.content-text h2.product-header{
-  font-size: 5em;
-}
-
-.content-text .product-des {
-  font-size: 1.5em;
-}
-
-.shape{
-  clip-path: circle(250px at center bottom);
-}
-
-.thumb ul li img{
-  max-width: 45px;
-}
-
-.navbar .except {
-  font-size: 20px;
-}
-
-a.dropbtn {
-  font-size: 26px
-}
-
-.content-picture .socials{
-  position: absolute;
-  margin-right: 20px;
-  top: 100px;
-}
-
-}
 
 
 
